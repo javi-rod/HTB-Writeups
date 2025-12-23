@@ -1,4 +1,4 @@
-# HTB Write-ups
+# HTB-Writeups
 
 Este repositorio recoge mis write-ups de máquinas de Hack The Box (HTB).  
 
