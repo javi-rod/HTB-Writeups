@@ -2,7 +2,7 @@
 
 Write-up de la máquina **Meow** perteneciente a la ruta *Starting Point* de Hack The Box.
 
-![banner](../Assets/meow/00_meow.png)
+![banner](../../Assets/meow/00_meow.png)
 
 ---
 
@@ -14,7 +14,7 @@ Write-up de la máquina **Meow** perteneciente a la ruta *Starting Point* de Hac
 ping -c 1 <IP>
 ```
 
-![ping](../Assets/meow/01_ping.png) 
+![ping](../../Assets/meow/01_ping.png) 
 
 Vemos que tenemos conectividad con la máquina y, además, el TTL nos da una pista del sistema operativo que hay detrás:
 
@@ -28,7 +28,7 @@ Vemos que tenemos conectividad con la máquina y, además, el TTL nos da una pis
 nmap -p- --min-rate 5000 <IP>
 ```
 
-![nmap-ports](../Assets/meow/02_enum1.png) 
+![nmap-ports](../../Assets/meow/02_enum1.png) 
 
 Puerto encontrado:
 
@@ -42,7 +42,7 @@ Una vez identificado el puerto, realizamos un escaneo más detallado:
 nmap -sVC -p 23 <IP>
 ```
 
-![nmap-services](../Assets/meow/03_enum2.png)
+![nmap-services](../../Assets/meow/03_enum2.png)
 
 # 2. Explotación ⚡
 
@@ -51,7 +51,7 @@ Acceso por Telnet con usuario root y contraseña en blanco:
 ```bash
 telnet <IP>
 ```
-![telnet](../Assets/meow/04_telnet.png)
+![telnet](../../Assets/meow/04_telnet.png)
 
 # 3. Obtención de la flag 🎉
 
@@ -60,14 +60,14 @@ Listamos el contenido del directorio:
 ```bash
 ls -al
 ```
-![ls](../Assets/meow/05_listado.png)	
+![ls](../../Assets/meow/05_listado.png)	
 
 Encontrado el fichero que contiene la flag (`flag.txt`), procedemos a ver el contenido:
 
 ```bash
 cat flag.txt
 ```
-![flag](../Assets/meow/06_flag.png)
+![flag](../../Assets/meow/06_flag.png)
 
 # 4. Técnicas practicadas / Lecciones aprendidas 🧩
 
