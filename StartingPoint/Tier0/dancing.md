@@ -209,7 +209,7 @@ Habría que repetir los pasos anteriores para descargar el fichero `flag.txt`.
 
 - Uso de `smbclient` para interactuar con shares mediante null session. O bien usar otras herramientas como `smbmap`.
 
-- Identificación de acceso anónimo habilitado en SMB (Null Session), confirmado mediante smbclient -N y smbmap con usuario guest.
+- Identificación de acceso anónimo habilitado en SMB (Null Session), confirmado mediante `smbclient -N` y `smbmap` con usuario guest.
 
 - Acceso y lectura de archivos sensibles (`flag.txt`) y validación del objetivo.
 
