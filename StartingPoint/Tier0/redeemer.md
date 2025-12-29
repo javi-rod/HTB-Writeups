@@ -56,7 +56,7 @@ Este host parece ser:
 
 # 2. Explotación ⚡
 
-Se buscan CVEs y exploits que puedan afectar a esa base de datos, sin encontrar nada que permita RCE (Remote Code Execution).
+Se buscan CVEs y exploits que puedan afectar a esa versión de la base de datos, sin encontrar nada que permita RCE (Remote Code Execution).
 
 ![search exploit](../../Assets/redeemer/04_exploit_db.png)
 
