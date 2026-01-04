@@ -25,7 +25,7 @@ Vemos que tenemos conectividad con la máquina y, además, el TTL nos da una pis
 ## 1.2. Descubrimiento de puertos 📡
 
 ```bash
-nmap -p- --min-rate 5000 <IP> -v
+sudo nmap -p- --min-rate 5000 <IP> -v
 ```
 
 ![nmap-ports](../../Assets/fawn/02_enum1.png) 
@@ -39,7 +39,7 @@ Puerto encontrado:
 Una vez identificado el puerto y el servicio, realizamos un escaneo más detallado:
 
 ```bash
-nmap -sVC -p 21 <IP>
+sudo nmap -sVC -p 21 <IP>
 ```
 
 **NOTA:** `-sVC` : Permite identificar la versión del servicio asociado al puerto (-sV) y ejecutar los scripts por defecto de Nmap (-sC).
@@ -84,7 +84,7 @@ cat flag.txt
 
 - Uso de `ping` para validar la conectividad como primer paso de la enumeración. El valor del TTL (63, debido al salto introducido por la VPN de HTB) indica que estamos ante una máquina Linux.
 
-- Escaneo completo de puertos con nmap `-p- --min-rate` para obtener un mapa rápido del objetivo.
+- Escaneo completo de puertos con `nmap -p- --min-rate` para obtener un mapa rápido del objetivo.
 
 - Enumeración de servicios con `nmap -sVC` que permite identificar versiones y scripts relevantes.
 

@@ -25,7 +25,7 @@ Vemos que tenemos conectividad con la máquina y, además, el TTL nos da una pis
 ## 1.2. Descubrimiento de puertos 📡
 
 ```bash
-nmap -p- --min-rate 5000 <IP> -v
+sudo nmap -p- --min-rate 5000 <IP> -v
 ```
 
 ![nmap-ports](../../Assets/dancing/02_enum1.png) 
@@ -49,10 +49,10 @@ Puertos encontrados:
 
 ## 1.3. Enumeración del servicio 🛠️
 
-Una vez identificado el puerto y el servicio, realizamos un escaneo más detallado:
+Una vez identificados los puertos y servicios, realizamos un escaneo más detallado:
 
 ```bash
-nmap -p 135,139,445,5985,47001,49664,49665,49666,49667,49668,49669 -sVC <IP>
+sudo nmap -p 135,139,445,5985,47001,49664,49665,49666,49667,49668,49669 -sVC <IP>
 ```
 
 **NOTA:** `-sVC` : Permite identificar la versión del servicio asociado al puerto (-sV) y ejecutar los scripts por defecto de Nmap (-sC).
@@ -203,7 +203,7 @@ Habría que repetir los pasos anteriores para descargar el fichero `flag.txt`.
 
 - Uso de `ping` para validar la conectividad como primer paso de la enumeración. El valor del TTL (127 debido al salto introducido por la VPN de HTB) indica que estamos ante una máquina Windows.
 
-- Una primera enumeración para obtención de los puertos, con nmap `-p- --min-rate`
+- Una primera enumeración para obtención de los puertos, con `nmap -p- --min-rate`
 
 - Una segunda enumeración, de servicios, con `nmap -sVC` que permite identificar versiones y scripts relevantes.
 

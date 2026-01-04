@@ -25,7 +25,7 @@ Vemos que tenemos conectividad con la máquina y, además, el TTL nos da una pis
 ## 1.2. Descubrimiento de puertos 📡
 
 ```bash
-nmap -p- --min-rate 5000 <IP>
+sudo nmap -p- --min-rate 5000 <IP>
 ```
 
 ![nmap-ports](../../Assets/meow/02_enum1.png) 
@@ -39,7 +39,7 @@ Puerto encontrado:
 Una vez identificado el puerto, realizamos un escaneo más detallado:
 
 ```bash
-nmap -sVC -p 23 <IP>
+sudo nmap -sVC -p 23 <IP>
 ```
 
 ![nmap-services](../../Assets/meow/03_enum2.png)
@@ -73,7 +73,7 @@ cat flag.txt
 
 - Uso de `ping` para validar la conectividad como primer paso de la enumeración. El valor del TTL también nos orienta sobre el sistema operativo remoto.
 
-- Escaneo completo de puertos con nmap `-p- --min-rate` para obtener un mapa rápido del objetivo.
+- Escaneo completo de puertos con `nmap -p- --min-rate` para obtener un mapa rápido del objetivo.
 
 - Enumeración de servicios con `nmap -sVC` para identificar versiones y scripts relevantes.
 
