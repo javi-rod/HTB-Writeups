@@ -16,9 +16,9 @@ El objetivo es documentar mi proceso de aprendizaje de forma clara, ordenada y r
 
    - **Tier0/**
 
-  - **Tier1/**
+   - **Tier1/**
 
-  - **Tier2/**
+   - **Tier2/**
 
 - **Assets/**  
 
