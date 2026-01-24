@@ -34,7 +34,7 @@ Puertos encontrados:
 
 - 22/tcp → open → ssh
 
-- 27017 → open → mongod
+- 27017/tcp → open → mongod
 
 ## 1.3. Enumeración del servicio 🛠️
 
