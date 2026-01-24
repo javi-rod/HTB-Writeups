@@ -12,5 +12,5 @@ Write-ups de las máquinas Tier 0 de Hack The Box (Starting Point).
 | Redeemer | [redeemer.md](redeemer.md) |
 | Explosion | [explosion.md](explosion.md) |
 | Preignition | [preignition.md](preignition.md)|
-| Mongod | [mongod.md](mongod.md) *(pendiente)* |
+| Mongod | [mongod.md](mongod.md) |
 | Synced | [synced.md](synced.md) *(pendiente)* |
