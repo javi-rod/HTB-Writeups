@@ -92,7 +92,7 @@ Verificamos que el usuario es christine (`id`), la ruta en la que estamos (`pwd`
 
 ![basic commands](../../Assets/funnel/10_christine.png) 
 
-A continuación, listamos los procesos que escuchan localmente para identificar servicios ocultos desde el exterior. Para ello ejecutamos: `ps -aux`
+A continuación, listamos los procesos en ejecución para identificar servicios activos. Mediante `ps -aux` detectamos que el proceso de PostgreSQL está en ejecución, lo que nos induce a pensar que el puerto 5432 podría estar activo localmente.
 
 ![ps aux](../../Assets/funnel/11_ps_aux.png) 
 
