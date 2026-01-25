@@ -13,4 +13,4 @@ Write-ups de las máquinas Tier 0 de Hack The Box (Starting Point).
 | Explosion | [explosion.md](explosion.md) |
 | Preignition | [preignition.md](preignition.md)|
 | Mongod | [mongod.md](mongod.md) |
-| Synced | [synced.md](synced.md) *(pendiente)* |
+| Synced | [synced.md](synced.md) |
