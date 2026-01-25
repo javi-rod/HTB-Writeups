@@ -14,7 +14,7 @@ El objetivo es documentar mi proceso de aprendizaje de forma clara, ordenada y r
 
   Máquinas iniciales orientadas a fundamentos, organizadas por niveles:
 
-   - **Tier0/**
+   - [**Tier0/**](./StartingPoint/Tier0/) 
 
    - **Tier1/**
 
