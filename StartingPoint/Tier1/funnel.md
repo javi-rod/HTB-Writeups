@@ -96,7 +96,6 @@ A continuación, listamos los procesos en ejecución para identificar servicios 
 
 ![ps aux](../../Assets/funnel/11_ps_aux.png) 
 
-Detectamos que el puerto **5432 (PostgreSQL)** está activo en localhost, pero no era accesible externamente durante nuestro escaneo inicial.
 
 ## 2.4. Local Port Forwarding (SSH Tunneling) 🚀
 
