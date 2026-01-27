@@ -101,8 +101,17 @@ Seleccionamos con `use` la base de datos `sensitive_information` y comprobamos s
 
 - Resolución de conflictos de compatibilidad de software mediante el uso de versiones heredadas (legacy) de mongosh.
 
-- Explotación de un control de acceso roto (Broken Access Control) derivado de una configuración insegura por defecto en la base de datos.
+- # 4. Técnicas practicadas / Lecciones aprendidas 🧩
 
+- Uso de `ping` para validar la conectividad como primer paso de la enumeración. El valor del TTL también nos orienta sobre el sistema operativo remoto.
+
+- Una primera enumeración para la obtención de los puertos, con `nmap -p- --min-rate`.
+
+- Una segunda enumeración de servicios, con `nmap -sVC` que permite identificar versiones y scripts relevantes.
+
+- Resolución de conflictos de compatibilidad de software mediante el uso de versiones heredadas (legacy) de mongosh.
+
+- Explotación de una Configuración de Seguridad Incorrecta (**Security Misconfiguration**). El servicio de base de datos carece de mecanismos de autenticación, permitiendo el acceso total de forma predeterminada.
 ---
 
 # 📝 Cuestionario (Tasks)

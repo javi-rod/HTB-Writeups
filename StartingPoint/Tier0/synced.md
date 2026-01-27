@@ -118,7 +118,7 @@ Tras verificar la descarga con un simple ls, procedemos a visualizar el contenid
 
 - Uso de `netcat` **(nc)** para conectar directamente al puerto 873. Esta técnica permitió validar la respuesta del servicio en tiempo real e interaccionar con el demonio rsync de forma manual para listar sus módulos compartidos.
 
-- Identificación de un fallo de **Control de Acceso (Broken Access Control)** en el demonio rsync, permitiendo la enumeración y descarga de archivos de forma anónima.
+- Explotación de una Configuración de Seguridad Incorrecta (**Security Misconfiguration**) en el demonio rsync, el cual permitía la enumeración y descarga de archivos de forma anónima al no requerir autenticación.
 
 - El servicio rsync operando de forma nativa (puerto 873) no cifra la información. Como lección aprendida, este tráfico siempre debe tunelizarse a través de **SSH** para garantizar la confidencialidad.
 
