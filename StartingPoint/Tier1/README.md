@@ -12,7 +12,7 @@ Write-ups de las máquinas Tier 1 de Hack The Box (Starting Point).
 | Responder | Pendiente |
 | Three | Pendiente |
 | Funnel | [funnel.md](funnel.md)|
-| Bike | Pendiente |
+| Bike |   [bike.md](bike.md) |
 | Ignition | Pendiente |
 | Pennyworth | Pendiente |
 | Tactics | Pendiente |
