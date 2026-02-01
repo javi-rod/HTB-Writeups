@@ -34,23 +34,19 @@ Cada write-up sigue una estructura común:
 
    Identificación de puertos, servicios y vectores iniciales.
 
-2. **Análisis**  
+2. **Explotación**  
 
-   Exploración de cada servicio, pruebas realizadas y razonamiento.
+   Análisis del vector y pasos detallados para obtener acceso.
 
-3. **Explotación**  
-
-   Pasos detallados para obtener acceso.
-
-4. **Escalada (si aplica)**  
+3. **Escalada (si aplica)**  
 
    Técnicas utilizadas para obtener privilegios superiores.
 
-5. **Flag / Resultado**  
+4. **Flag / Resultado**  
 
    Validación final.
 
-6. **Lecciones aprendidas / Técnicas practicadas**  
+5. **Lecciones aprendidas / Técnicas practicadas**  
 
    Qué he aprendido, qué he practicado y qué debería reforzar.
 
