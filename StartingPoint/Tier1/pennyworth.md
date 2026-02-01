@@ -72,7 +72,7 @@ Hacemos uso de la **Consola de scripts** de Jenkins para ejecutar código Groovy
 
 ![Groovy Script](../../Assets/pennyworth/07_groovy_script.png)
 
-- Preparamos el escucha: `nc -lvnp 4444`.
+- Configuramos un listener: `nc -lvnp 4444`.
 
 ![Listener](../../Assets/pennyworth/08_nc.png)
 
