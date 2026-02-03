@@ -96,7 +96,7 @@ En el **Intruder** vamos a configurar un ataque de tipo `Sniper` sobre el campo 
 
 ![Select Lists](../../Assets/ignition/13_list_passwords.png)
 
-Al procesar el ataque, observamos una respuesta con código `302 (Found)` para el usuario `admin` y la contraseña `qwerty123`. La diferencia en la longitud de la respuesta (197) respecto a los intentos fallidos confirma que hemos dado con la clave correcta.
+Al procesar el ataque, observamos una respuesta con código `302 (Found)` para el usuario `admin` y la contraseña `qwerty123`. La diferencia en la longitud de la respuesta (3062) respecto a los intentos fallidos confirma que hemos dado con la clave correcta.
 
 ![Obtain password](../../Assets/ignition/14_pass.png)
 
