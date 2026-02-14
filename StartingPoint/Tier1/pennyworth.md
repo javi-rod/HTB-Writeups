@@ -82,7 +82,7 @@ Tras ejecutar el script, recibimos la conexión. Al comprobar con `whoami`, vemo
 
 ![Flag](../../Assets/pennyworth/09_flag.png)
 
-# 4. Técnicas practicadas 🧩
+# 4. Técnicas practicadas / Lecciones aprendidas 🧩
 
 - **Identificación de Jenkins**: Reconocimiento de servicios en puertos no estándar (8080).
 
